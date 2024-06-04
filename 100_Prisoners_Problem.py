@@ -33,9 +33,5 @@ def find_number(answer):
             break
     return result
 
-def find_number():
-
-def setRandomNumber(): 
-
 if __name__ == "__main__":
     main()
