@@ -1,7 +1,8 @@
 numberList = []
 
 def main():
-  
+    game()
+    
 def game():
   setRandomNumber()
     for prisoner in range(100):
