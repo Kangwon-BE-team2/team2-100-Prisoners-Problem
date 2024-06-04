@@ -8,9 +8,12 @@ def setRandomNumber():
     random.shuffle(numberList)
 
 def main():
+    successCount = 0
     n = int(input())
     for i in range(n):
-        game()
+        if game():
+            successCount += 1
+    print(f"성공 확률: {successCount/n}")
     
 def game():
     setRandomNumber()
