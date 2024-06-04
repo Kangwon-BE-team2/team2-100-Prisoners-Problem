@@ -1,7 +1,9 @@
 numberList = []
 
 def main():
-    game()
+    n = int(input())
+    for i in range(n):
+        game()
     
 def game():
   setRandomNumber()
