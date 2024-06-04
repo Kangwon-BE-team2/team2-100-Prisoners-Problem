@@ -1,4 +1,11 @@
+import random
+
 numberList = []
+
+def setRandomNumber():
+    for i in range(1, 101):
+        numberList.append(i)
+    random.shuffle(numberList)
 
 def main():
     n = int(input())
@@ -15,7 +22,6 @@ def game():
 def find_number():
 
 def setRandomNumber(): 
-
 
 if __name__ == "__main__":
     main()
